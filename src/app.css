@@ -1,0 +1,165 @@
+.app {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.dark .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/* Smooth Rainbow Animation */
+@keyframes rainbow-scroll {
+    from {
+        background-position: 0% center;
+    }
+
+    to {
+        background-position: -200% center;
+    }
+}
+
+/* Rainbow Border Only (Transparent Middle) */
+.rainbow-box {
+    position: relative;
+    z-index: 0;
+    border-radius: var(--radius);
+}
+
+.rainbow-box::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    /* Border thickness */
+    border-radius: var(--radius);
+    background: linear-gradient(to right,
+            var(--rainbow-1),
+            var(--rainbow-2),
+            var(--rainbow-3),
+            var(--rainbow-4),
+            var(--rainbow-5),
+            var(--rainbow-6),
+            var(--rainbow-7),
+            var(--rainbow-8),
+            var(--rainbow-1));
+    background-size: 200% auto;
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    animation: rainbow-scroll 3s linear infinite;
+    pointer-events: none;
+}
+
+/* Rainbow Text Effect */
+.rainbow-text {
+    background: linear-gradient(to right,
+            var(--rainbow-1),
+            var(--rainbow-2),
+            var(--rainbow-3),
+            var(--rainbow-4),
+            var(--rainbow-5),
+            var(--rainbow-6),
+            var(--rainbow-7),
+            var(--rainbow-8),
+            var(--rainbow-1)) !important;
+    background-size: 200% auto !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    color: transparent !important;
+    animation: rainbow-scroll 3s linear infinite !important;
+}
+
+.rainbow-box>button {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* AI Green Gradient Logic */
+.ai-gradient-box {
+    position: relative;
+    z-index: 0;
+    border-radius: var(--radius);
+}
+
+.ai-gradient-box::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    border-radius: var(--radius);
+    /* Emerald/Green spectrum */
+    background: linear-gradient(to right,
+            #10b981,
+            #34d399,
+            #6ee7b7,
+            #4ade80,
+            #22c55e,
+            #16a34a,
+            #059669,
+            #10b981);
+    background-size: 200% auto;
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    animation: rainbow-scroll 3s linear infinite;
+    pointer-events: none;
+}
+
+.ai-gradient-text {
+    background: linear-gradient(to right,
+            #10b981,
+            #34d399,
+            #6ee7b7,
+            #4ade80,
+            #22c55e,
+            #16a34a,
+            #059669,
+            #10b981) !important;
+    background-size: 200% auto !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    color: transparent !important;
+    animation: rainbow-scroll 3s linear infinite !important;
+}
+
+.ai-gradient-box>button {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}

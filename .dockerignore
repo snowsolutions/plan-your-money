@@ -1,0 +1,15 @@
+node_modules
+dist
+.git
+.gitignore
+.dockerignore
+Dockerfile
+docker-compose.yml
+Makefile
+README.md
+.dev.pid
+.ai
+.vscode
+.idea
+*.log
+npm-debug.log*

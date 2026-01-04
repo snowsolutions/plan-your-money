@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FinancialManagementApp version="1.0">
+  <PlanItems>
+    <Item>
+      <Id></Id>
+      <Type></Type>
+      <Name></Name>
+      <Amount></Amount>
+      <Recurring></Recurring>
+      <RecurringType></RecurringType>
+      <MonthIndex></MonthIndex>
+      <Year></Year>
+      <SeriesId></SeriesId>
+    </Item>
+  </PlanItems>
+</FinancialManagementApp>

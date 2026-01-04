@@ -1,0 +1,346 @@
+key,value
+app.title,Financial Plan
+app.subtitle,Track your yearly finances with precision.
+nav.plan,Plan
+nav.dashboard,Dashboard
+nav.reports,Reports
+nav.admin,Admin
+heading.yearly_income,Yearly Income
+heading.yearly_expenses,Yearly Expenses
+heading.net_savings,Net Savings
+heading.planning_year,View as year
+action.start_ai,Start with AI
+action.import,Import
+action.export,Export
+action.export_enc,Export (Encrypted)
+action.clear_data,Clear Data
+action.sample_data,Sample data
+modal.ai.title,Start with AI
+modal.ai.subtitle,Describe your financial situation
+modal.ai.tip,Tip:
+modal.ai.tip_content,"Be specific. For example: ""I earn $5,000 a month salary. My rent is $1,200. I spend about $400 on groceries and $200 on transport. I want to save for a car in 2 years."""
+modal.ai.placeholder,Type your instructions here...
+modal.ai.discard.title,Discard changes?
+modal.ai.discard.message,You have unsaved instructions. Are you sure you want to close?
+modal.ai.keep_editing,Keep Editing
+modal.ai.discard,Discard
+modal.ai.completed,Completed!
+modal.ai.success_message,Your financial plan has been successfully generated and loaded into the application.
+modal.ai.close,Close
+modal.ai.cancel,Cancel
+modal.ai.generate,Generate Plan
+modal.ai.generating,Generating Plan...
+modal.ai.generating_desc,AI is analyzing your instructions and building your financial plan. This may take a few seconds.
+modal.warning.title,Override Existing Data?
+modal.warning.subtitle,You already have financial data loaded.
+modal.warning.message,This action will COMPLETELY REPLACE your current plan with new data. This action is permanent and cannot be undone.
+modal.warning.override,Override Data
+modal.warning.cancel,Cancel
+months.january,January
+months.february,February
+months.march,March
+months.april,April
+months.may,May
+months.june,June
+months.july,July
+months.august,August
+months.september,September
+months.october,October
+months.november,November
+months.december,December
+common.income,Income
+common.expense,Expense
+common.cancel,Cancel
+common.balance,Balance
+common.prev_balance,Prev. Bal
+common.series,Series
+common.add_item,Add New Item
+modal.create.title,Create New Item
+form.name,Name
+form.amount,Amount
+form.description,Description
+form.recurring,Recurring Item?
+form.recurring.forever,Forever
+form.recurring.until,Until Date
+form.create,Create Item
+form.cancel,Cancel
+tooltip.priority.custom,Custom Priority
+tooltip.priority.global,Global Priority
+tooltip.sort.custom,Custom Sort
+tooltip.sort.global,Global Sort
+modal.function.title,Functions
+modal.plan_function.title,Plan Functions
+modal.plan_function.group.import_export,Import / Export
+modal.plan_function.group.view_mode,View Mode
+action.view_vertical,Vertical View
+action.view_horizontal,Horizontal View
+modal.clear.title,Clear All Data
+modal.clear.warning,This action will permanently delete all your financial items, categories, and settings. This cannot be undone.
+modal.clear.recommendation,Recommended Action
+modal.clear.backup_action,Backup Data First
+modal.clear.backup_desc,Export to .fma file
+modal.clear.confirm,Clear Everything
+modal.clear.deleting,Deleting Data...
+modal.clear.deleting_desc,Your data is being prepared for permanent removal.
+modal.clear.abort,Abort Deletion
+modal.import.title,Import Financial Plan
+modal.import.alert_invalid,Please drop a valid .fma or .efma file.
+modal.import.error_generic,Failed to import file.
+modal.import.success_title,Import Successful!
+modal.import.success_desc,Your data has been perfectly synchronized.
+modal.import.auto_close,Auto-closing in seconds
+modal.import.failed_title,Import Failed
+modal.import.invalid_format,Invalid file format.
+modal.import.drag_drop,Drag and drop your .fma or .efma file here
+modal.import.drag_desc,Your financial data will be loaded from this file.
+modal.import.upload_btn,Upload from Computer
+modal.import.ready,File is ready to be imported
+modal.import.choose_different,Choose Different File
+modal.import.start,Start Import
+modal.import.warning_note,Importing will replace your current data for the entire app. Make sure you've exported any important data first.
+common.try_again,Try Again
+common.or,OR
+common.done,Done
+common.note,Note
+currency.vnd,Vietnamese Dong
+currency.usd,US Dollar
+currency.eur,Euro
+currency.jpy,Japanese Yen
+currency.gbp,Pound Sterling
+currency.aud,Australian Dollar
+tooltip.theme.light,Switch to Light Mode
+tooltip.theme.dark,Switch to Dark Mode
+tooltip.currency,Change Currency
+tooltip.blur.on,Privacy Blur
+tooltip.blur.off,Unlock Interface
+modal.currency.title,Select Currency
+modal.add.title,Add {type} to {month}
+modal.add.type.income,Income
+modal.add.type.expense,Expense
+modal.add.name.label,Item Name
+modal.add.name.placeholder,Rent, Salary, Groceries...
+modal.add.desc.label,Description
+modal.add.desc.optional,(Optional)
+modal.add.desc.placeholder,Brief detail...
+modal.add.amount.label,Amount
+modal.add.recurring.label,Is this a recurring item?
+modal.add.recurring.desc,Automatically repeats in future months
+modal.add.recurring_opt.label,Recurring Option
+modal.add.recurring_opt.forever,No ending date
+modal.add.recurring_opt.until,Until a specific date
+modal.add.end_date,End Date
+modal.add.submit,Add Item
+modal.discard.title,Discard Changes?
+modal.discard.message,You have unsaved information. Are you sure you want to discard your progress?
+modal.delete_series.title,Remove Item?
+modal.delete_series.message,This is a recurring item. Do you want to remove the entire series or just this specific one?
+modal.delete_series.all,Remove Entire Series
+modal.delete_series.one,Remove Just This One
+modal.edit.title,Edit {type}
+modal.edit.warning_type,Item type and recurrence settings cannot be changed after creation.
+modal.edit.submit,Update Item
+modal.update_series.title,Update Series?
+modal.update_series.message,This is a recurring item. Do you want to apply these changes to the entire series or only to this single occurrence?
+modal.update_series.all,Update All in Series
+modal.update_series.one,Update This One Only
+tooltip.series_count,Series: {count} occurrences
+common.prev_balance_long,Previous Balance
+common.total_balance,Total Balance
+category.income.salary,Salary
+category.income.bonus,Bonus
+category.income.commission,Commission
+category.income.tips,Tips/Gratuity
+category.income.overtime,Overtime
+category.income.part_time,Part-time Job
+category.income.freelance,Freelance/Contract
+category.income.consulting,Consulting
+category.income.contract,Contract Work
+category.income.side_hustle,Side Hustle
+category.income.investment,Investment Return
+category.income.dividends,Dividends
+category.income.interest,Interest
+category.income.crypto,Crypto Gains
+category.income.rental,Rental Income
+category.income.real_estate_flip,Real Estate Flip
+category.income.selling_assets,Selling Assets
+category.income.sale,Sales Revenue
+category.income.royalties,Royalties
+category.income.patent,Patent Licensing
+category.income.grants,Grants
+category.income.scholarship,Scholarship
+category.income.pension,Pension
+category.income.social_security,Social Security
+category.income.unemployment,Unemployment Benefits
+category.income.benefits,Benefits
+category.income.severance,Severance Pay
+category.income.alimony,Alimony Received
+category.income.child_support,Child Support Received
+category.income.gift,Gift Received
+category.income.inheritance,Inheritance
+category.income.lottery,Lottery/Gambling
+category.income.refunds,Refunds/Rebates
+category.income.cashback,Cashback/Rewards
+category.income.teaching,Teaching/Tutoring
+category.income.content_creation,Content Creation
+category.income.ad_revenue,Ad Revenue
+category.income.affiliate,Affiliate Income
+category.income.allowance,Allowance
+category.income.other,Other Income
+category.expense.rent,Rent
+category.expense.mortgage,Mortgage
+category.expense.property_tax,Property Tax
+category.expense.home_ins,Home Insurance
+category.expense.home_maint,Home Maintenance
+category.expense.utilities,Utilities
+category.expense.comm,Phone/Internet
+category.expense.household,Household Supplies
+category.expense.groceries,Groceries
+category.expense.dining,Dining Out
+category.expense.alcohol,Alcohol/Bars
+category.expense.transport,Public Transport
+category.expense.fuel,Gas/Fuel
+category.expense.car_payment,Car Payment
+category.expense.car_maint,Car Maintenance
+category.expense.parking,Parking/Tolls
+category.expense.ins_car,Car Insurance
+category.expense.medical,Medical
+category.expense.dental,Dental
+category.expense.pharmacy,Pharmacy
+category.expense.ins_health,Health Insurance
+category.expense.fitness,Fitness/Gym
+category.expense.shopping,Shopping
+category.expense.electronics,Electronics
+category.expense.clothing,Clothing
+category.expense.beauty,Personal Care
+category.expense.education,Education
+category.expense.books,Books/Learning
+category.expense.subscriptions,Subscriptions
+category.expense.entertainment,Entertainment
+category.expense.travel,Travel
+category.expense.hobbies,Hobbies
+category.expense.pet,Pet Care
+category.expense.childcare,Childcare
+category.expense.debt,Debt Repayment
+category.expense.student_loan,Student Loans
+category.expense.gift,Gifts Given
+category.expense.donations,Charity/Donations
+category.expense.legal,Legal Fees
+category.expense.tax,Taxes
+category.uncategorized,Uncategorized
+dashboard.title,Dashboard {year}
+dashboard.subtitle,Financial overview and category breakdown.
+dashboard.overview,Overview
+dashboard.total_income,Total Income
+dashboard.total_expense,Total Expense
+dashboard.net_savings,Net Savings
+dashboard.category_breakdown,Category Breakdown
+dashboard.monthly_overview,Monthly Overview
+dashboard.monthly_overview_subtitle,Income vs Expense flow across {year}
+dashboard.reverse_order,Reverse Order
+dashboard.top_categories,Top Categories
+dashboard.top_categories_subtitle,Ranking by highest transaction value
+dashboard.rank,Rank
+dashboard.category,Category
+dashboard.value,Value
+dashboard.no_data_title,No Data for {year}
+dashboard.no_data_desc_part1,Start by adding some income and expense items in the
+dashboard.no_data_desc_part2,tab, or ask AI to generate a plan for you.
+dashboard.modal.title,Dashboard Functions
+dashboard.modal.group_analytic,Analytic
+dashboard.modal.refresh_auto_cat,Refresh Auto-categorized
+dashboard.modal.refresh_auto_cat_desc,Clear cache and re-run AI categorization
+common.all,All
+category_mgmt.source,Source
+category_mgmt.categories_found,{count} categories found
+dashboard.modal.group_category_mgmt,Category Management
+dashboard.modal.manage_cat,Manage Categories
+dashboard.modal.import_cat,Import Categories
+category_mgmt.title,Manage Categories
+category_mgmt.create_new,Create New Category
+category_mgmt.filter_type,Filter by Type
+category_mgmt.sort_by,Sort by
+category_mgmt.sort_asc,Ascending
+category_mgmt.sort_desc,Descending
+category_mgmt.system_category,System
+category_mgmt.user_category,User
+category_mgmt.name,Name
+category_mgmt.type,Type
+category_mgmt.create_modal.title,Create Category
+category_mgmt.create_modal.name_label,Category Name
+category_mgmt.create_modal.type_label,Category Type
+category_mgmt.create_modal.submit,Create
+category_mgmt.create_modal.cancel,Cancel
+category_mgmt.create_modal.success,Category created successfully
+category_mgmt.create_modal.error_empty,Name cannot be empty
+category_mgmt.create_modal.error_exists,Category already exists
+dashboard.search_items,Search items...
+category_mgmt.edit_category,Edit Category
+category_mgmt.delete_category,Delete Category
+category_mgmt.delete_modal.title,Delete Category?
+category_mgmt.delete_modal.message,Are you sure you want to delete this category? This action cannot be undone.
+category_mgmt.delete_modal.confirm,Delete
+category_mgmt.delete_modal.cancel,Cancel
+category_mgmt.edit_modal.title,Edit Category
+category_mgmt.edit_modal.submit,Save Changes
+dashboard.trending_lines,Trending Lines
+dashboard.trending_lines_description,Compare trends between individual items
+dashboard.recurring,Recurring
+dashboard.normal,Normal
+dashboard.no_items_selected,Select items to view trends
+action.view_dashboard,View on Dashboard
+admin.title,Administration Management
+admin.subtitle,Manage application settings, AI models, and system configurations.
+admin.ai.title,AI Management
+admin.ai.tag,Intelligence Hub
+admin.ai.description,Monitor and manage your AI integration. Check available models from OpenAI and verify your API configuration status.
+admin.ai.view_models,View Supported AI Models
+admin.ai.change_api_key,Change API Key
+admin.ai.api_configured,API Key Configured
+admin.modal.models.title,OpenAI Supported Models
+admin.modal.models.tag,Live Intelligence Catalog
+admin.modal.models.col_id,Model Identifier
+admin.modal.models.col_owner,Infrastructure Provider
+admin.modal.models.col_date,Deployment Date
+admin.modal.models.loading,Requesting Semantic API...
+admin.modal.models.error_title,Request Execution Failed
+admin.modal.models.dismiss,Dismiss Modal
+admin.modal.models.col_action,Action
+admin.modal.models.status_active,Active
+admin.modal.models.action_select,Select
+admin.modal.models.search,Search models...
+admin.modal.apikey.title,OpenAI API Key Configuration
+admin.modal.apikey.description,Select the API key you want to use for AI features. You can choose between the primary key and several backup keys configured in the system.
+admin.modal.apikey.select_label,Active API Key
+admin.modal.apikey.key_default,Primary API Key (Default)
+admin.modal.apikey.key_backup_1,Backup API Key 1
+admin.modal.apikey.key_backup_2,Backup API Key 2
+admin.modal.apikey.key_backup_3,Backup API Key 3
+admin.modal.apikey.save,Apply API Key
+admin.modal.apikey.success,API Key updated. Refreshing app in 3s...
+modal.add.structure.label,Structure
+modal.add.structure.simple,Simple Item
+modal.add.structure.bundle,Bundle
+modal.add.status.label,Status
+modal.add.status.finalized,Finalized
+modal.add.status.not_finalized,Not Finalized
+modal.add.amount.bundle_hint,Bundle amount is calculated from sub-items
+modal.add.recurring_mode.label,Recurring Mode
+modal.add.recurring_mode.as_it_is,As it is (full amount)
+modal.add.recurring_mode.installments,Installments
+modal.add.installments.label,Number of Installments
+modal.add.subitems.title,Sub Items
+modal.add.subitem.name_placeholder,Item name...
+modal.add.subitem.desc_placeholder,Optional detail...
+modal.add.subitems.empty,No sub-items added yet. Bundles require at least one sub-item.
+modal.add.subitems.total_items,{count} sub-items
+common.add,Add
+common.projected,Projected
+common.not_finalized,Not Finalized
+modal.edit.warning_type_income,Income type and recurrence settings cannot be changed after creation.
+modal.edit.recurring_locked,Recurring settings are locked for installment-based bundles
+modal.delete_series.message_installments,This is an installment-based bundle. All installments in this series will be removed.
+common.installment,Installment
+common.payment,Payment
+modal.add.recurring_option.label,Recurring Option
+modal.add.recurring_option.forever,No ending date
+modal.add.recurring_option.until_date,Until a specific date

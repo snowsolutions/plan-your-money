@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+.ai
+# Testing
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Production
+/dist/
+/dist-ssr/
+/build/
+
+# IDEs and Editors
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local env files
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Temporary files and caches
+.eslintcache
+.stylelintcache
+.vite
+.next
+.turbo
+.vercel
+.cache
+package-lock.json.bak
+yarn.lock.bak
+pnpm-lock.yaml.bak
+
+# Project specific
+/i18n/missing-keys.csv
+/assets/saoke-sanitized.json

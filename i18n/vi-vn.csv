@@ -1,0 +1,346 @@
+﻿key,value
+app.title,Kế Hoạch Tài Chính
+app.subtitle,Theo dõi tài chính hàng năm của bạn một cách chính xác.
+nav.plan,Kế Hoạch
+nav.dashboard,Bảng Tin
+nav.reports,Báo Cáo
+nav.admin,Quản trị
+heading.yearly_income,Thu Nhập Năm
+heading.yearly_expenses,Chi Tiêu Năm
+heading.net_savings,Tiết Kiệm Ròng
+heading.planning_year,Xem tại năm
+action.start_ai,Bắt đầu với AI
+action.import,Nhập
+action.export,Xuất
+action.export_enc,Xuất (Mã Hóa)
+action.clear_data,Xóa Dữ Liệu
+action.sample_data,Dữ liệu mẫu
+modal.ai.title,Bắt đầu với AI
+modal.ai.subtitle,Mô tả tình hình tài chính của bạn
+modal.ai.tip,Gợi ý:
+modal.ai.tip_content,"Hãy cụ thể. Ví dụ: ""Tôi có lương 50 triệu/tháng. Tiền thuê nhà 12 triệu. Tôi chi khoảng 4 triệu tiền ăn và 2 triệu đi lại. Tôi muốn tiết kiệm mua xe trong 2 năm tới."""
+modal.ai.placeholder,Nhập hướng dẫn của bạn tại đây...
+modal.ai.discard.title,Hủy thay đổi?
+modal.ai.discard.message,Bạn có hướng dẫn chưa lưu. Bạn có chắc chắn muốn đóng không?
+modal.ai.keep_editing,Tiếp tục sửa
+modal.ai.discard,Hủy bỏ
+modal.ai.completed,Hoàn tất!
+modal.ai.success_message,Kế hoạch tài chính của bạn đã được tạo và tải thành công vào ứng dụng.
+modal.ai.close,Đóng
+modal.ai.cancel,Hủy
+modal.ai.generate,Tạo Kế Hoạch
+modal.ai.generating,Đang Tạo Kế Hoạch...
+modal.ai.generating_desc,AI đang phân tích hướng dẫn và xây dựng kế hoạch tài chính của bạn. Quá trình này có thể mất vài giây.
+modal.warning.title,Ghi Đè Dữ Liệu?
+modal.warning.subtitle,Bạn đang có dữ liệu tài chính.
+modal.warning.message,Hành động này sẽ THAY THẾ HOÀN TOÀN kế hoạch hiện tại của bạn bằng dữ liệu mới. Hành động này là vĩnh viễn và không thể hoàn tác.
+modal.warning.override,Ghi Đè Dữ Liệu
+modal.warning.cancel,Hủy
+months.january,Tháng 1
+months.february,Tháng 2
+months.march,Tháng 3
+months.april,Tháng 4
+months.may,Tháng 5
+months.june,Tháng 6
+months.july,Tháng 7
+months.august,Tháng 8
+months.september,Tháng 9
+months.october,Tháng 10
+months.november,Tháng 11
+months.december,Tháng 12
+common.income,Thu nhập
+common.expense,Chi tiêu
+common.cancel,Hủy
+common.balance,Số dư
+common.prev_balance,Số dư trước
+common.series,Chuỗi
+common.add_item,Thêm Mục Mới
+modal.create.title,Tạo Mục Mới
+form.name,Tên
+form.amount,Số tiền
+form.description,Mô tả
+form.recurring,Mục lặp lại?
+form.recurring.forever,Mãi mãi
+form.recurring.until,Đến ngày
+form.create,Tạo Mục
+form.cancel,Hủy
+tooltip.priority.custom,Ưu tiên Tùy chỉnh
+tooltip.priority.global,Ưu tiên Chung
+tooltip.sort.custom,Sắp xếp Tùy chỉnh
+tooltip.sort.global,Sắp xếp Chung
+modal.function.title,Chức năng
+modal.plan_function.title,Chức năng Kế hoạch
+modal.plan_function.group.import_export,Nhập / Xuất
+modal.plan_function.group.view_mode,Chế độ xem
+action.view_vertical,Xem Dọc
+action.view_horizontal,Xem Ngang
+modal.clear.title,Xóa Tất Cả Dữ Liệu
+modal.clear.warning,Hành động này sẽ xóa vĩnh viễn tất cả các mục tài chính, danh mục và cài đặt của bạn. Điều này không thể hoàn tác.
+modal.clear.recommendation,Hành động Khuyên dùng
+modal.clear.backup_action,Sao lưu Dữ liệu Trước
+modal.clear.backup_desc,Xuất ra tệp .fma
+modal.clear.confirm,Xóa Mọi Thứ
+modal.clear.deleting,Đang xóa dữ liệu...
+modal.clear.deleting_desc,Dữ liệu của bạn đang được chuẩn bị để xóa vĩnh viễn.
+modal.clear.abort,Hủy Xóa
+modal.import.title,Nhập Kế Hoạch Tài Chính
+modal.import.alert_invalid,Vui lòng thả tệp .fma hoặc .efma hợp lệ.
+modal.import.error_generic,Không thể nhập tệp.
+modal.import.success_title,Nhập Thành Công!
+modal.import.success_desc,Dữ liệu của bạn đã được đồng bộ hóa hoàn hảo.
+modal.import.auto_close,Tự động đóng trong giây
+modal.import.failed_title,Nhập Thất Bại
+modal.import.invalid_format,Định dạng tệp không hợp lệ.
+modal.import.drag_drop,Kéo và thả tệp .fma hoặc .efma của bạn vào đây
+modal.import.drag_desc,Dữ liệu tài chính của bạn sẽ được tải từ tệp này.
+modal.import.upload_btn,Tải lên từ Máy tính
+modal.import.ready,Tệp đã sẵn sàng để nhập
+modal.import.choose_different,Chọn Tệp Khác
+modal.import.start,Bắt đầu Nhập
+modal.import.warning_note,Việc nhập sẽ thay thế dữ liệu hiện tại của bạn cho toàn bộ ứng dụng. Hãy chắc chắn bạn đã xuất mọi dữ liệu quan trọng trước.
+common.try_again,Thử Lại
+common.or,HOẶC
+common.done,Xong
+common.note,Lưu ý
+currency.vnd,Việt Nam Đồng
+currency.usd,Đô la Mỹ
+currency.eur,Euro
+currency.jpy,Yên Nhật
+currency.gbp,Bảng Anh
+currency.aud,Đô la Úc
+tooltip.theme.light,Chuyển sang Chế độ Sáng
+tooltip.theme.dark,Chuyển sang Chế độ Tối
+tooltip.currency,Đổi Tiền tệ
+tooltip.blur.on,Làm mờ Bảo mật
+tooltip.blur.off,Mở khóa Giao diện
+modal.currency.title,Chọn Tiền tệ
+modal.add.title,Thêm {type} vào {month}
+modal.add.type.income,Thu nhập
+modal.add.type.expense,Chi tiêu
+modal.add.name.label,Tên mục
+modal.add.name.placeholder,Thuê nhà, Lương, Mua sắm...
+modal.add.desc.label,Mô tả
+modal.add.desc.optional,(Tùy chọn)
+modal.add.desc.placeholder,Chi tiết ngắn gọn...
+modal.add.amount.label,Số tiền
+modal.add.recurring.label,Đây là mục lặp lại?
+modal.add.recurring.desc,Tự động lặp lại trong các tháng tương lai
+modal.add.recurring_opt.label,Tùy chọn lặp lại
+modal.add.recurring_opt.forever,Không có ngày kết thúc
+modal.add.recurring_opt.until,Đến một ngày cụ thể
+modal.add.end_date,Ngày kết thúc
+modal.add.submit,Thêm Mục
+modal.discard.title,Hủy thay đổi?
+modal.discard.message,Bạn có thông tin chưa lưu. Bạn có chắc chắn muốn hủy bỏ tiến trình của mình không?
+modal.delete_series.title,Xóa Mục?
+modal.delete_series.message,Đây là một mục lặp lại. Bạn muốn xóa toàn bộ chuỗi hay chỉ mục cụ thể này?
+modal.delete_series.all,Xóa Toàn Bộ Chuỗi
+modal.delete_series.one,Chỉ Xóa Mục Này
+modal.edit.title,Sửa {type}
+modal.edit.warning_type,Không thể thay đổi loại mục và cài đặt lặp lại sau khi tạo.
+modal.edit.submit,Cập nhật Mục
+modal.update_series.title,Cập nhật Chuỗi?
+modal.update_series.message,Đây là một mục lặp lại. Bạn muốn áp dụng những thay đổi này cho toàn bộ chuỗi hay chỉ mục này?
+modal.update_series.all,Cập nhật Tất cả trong Chuỗi
+modal.update_series.one,Chỉ Cập nhật Mục này
+tooltip.series_count,Chuỗi: {count} lần
+common.prev_balance_long,Số dư trước
+common.total_balance,Tổng Số dư
+category.income.salary,Lương
+category.income.bonus,Thưởng
+category.income.commission,Hoa hồng
+category.income.tips,Tiền boa/Tip
+category.income.overtime,Làm thêm giờ
+category.income.part_time,Việc bán thời gian
+category.income.freelance,Freelance/Hợp đồng
+category.income.consulting,Tư vấn
+category.income.contract,Làm theo hợp đồng
+category.income.side_hustle,Nghề tay trái
+category.income.investment,Lợi nhuận đầu tư
+category.income.dividends,Cổ tức
+category.income.interest,Lãi suất
+category.income.crypto,Lãi tiền mã hóa
+category.income.rental,Cho thuê tài sản
+category.income.real_estate_flip,Lướt sóng BĐS
+category.income.selling_assets,Bán tài sản
+category.income.sale,Doanh thu bán hàng
+category.income.royalties,Tiền bản quyền
+category.income.patent,Cấp phép bằng sáng chế
+category.income.grants,Tài trợ
+category.income.scholarship,Học bổng
+category.income.pension,Lương hưu
+category.income.social_security,Bảo hiểm xã hội
+category.income.unemployment,Trợ cấp thất nghiệp
+category.income.benefits,Phúc lợi
+category.income.severance,Trợ cấp thôi việc
+category.income.alimony,Tiền cấp dưỡng ly hôn
+category.income.child_support,Tiền trợ cấp nuôi con
+category.income.gift,Quà tặng nhận được
+category.income.inheritance,Thừa kế
+category.income.lottery,Trúng thưởng/Xổ số
+category.income.refunds,Hoàn tiền/Thuế
+category.income.cashback,Hoàn tiền thẻ
+category.income.teaching,Dạy học/Gia sư
+category.income.content_creation,Sáng tạo nội dung
+category.income.ad_revenue,Doanh thu quảng cáo
+category.income.affiliate,Tiếp thị liên kết
+category.income.allowance,Tiền trợ cấp
+category.income.other,Thu nhập khác
+category.expense.rent,Tiền thuê nhà
+category.expense.mortgage,Thế chấp/Trả góp nhà
+category.expense.property_tax,Thuế tài sản
+category.expense.home_ins,Bảo hiểm nhà
+category.expense.home_maint,Bảo trì nhà cửa
+category.expense.utilities,Điện nước
+category.expense.comm,Điện thoại/Internet
+category.expense.household,Đồ dùng gia đình
+category.expense.groceries,Đi chợ/Siêu thị
+category.expense.dining,Ăn uống ngoài
+category.expense.alcohol,Rượu bia/Bar
+category.expense.transport,Giao thông công cộng
+category.expense.fuel,Xăng xe
+category.expense.car_payment,Trả góp xe
+category.expense.car_maint,Bảo dưỡng xe
+category.expense.parking,Gửi xe/Phí cầu đường
+category.expense.ins_car,Bảo hiểm xe
+category.expense.medical,Y tế/Khám bệnh
+category.expense.dental,Nha khoa
+category.expense.pharmacy,Thuốc men
+category.expense.ins_health,Bảo hiểm y tế
+category.expense.fitness,Gym/Thể thao
+category.expense.shopping,Mua sắm
+category.expense.electronics,Đồ điện tử
+category.expense.clothing,Quần áo
+category.expense.beauty,Làm đẹp
+category.expense.education,Giáo dục
+category.expense.books,Sách vở/Tài liệu
+category.expense.subscriptions,Đăng ký dịch vụ
+category.expense.entertainment,Giải trí
+category.expense.travel,Du lịch
+category.expense.hobbies,Sở thích
+category.expense.pet,Thú cưng
+category.expense.childcare,Chăm sóc trẻ
+category.expense.debt,Trả nợ
+category.expense.student_loan,Vay sinh viên
+category.expense.gift,Quà tặng đi
+category.expense.donations,Từ thiện
+category.expense.legal,Phí pháp lý
+category.expense.tax,Thuế/Phí
+dashboard.title,Bảng tin {year}
+dashboard.subtitle,Tổng quan tài chính và phân bổ danh mục.
+dashboard.overview,Tổng quan
+dashboard.total_income,Tổng Thu nhập
+dashboard.total_expense,Tổng Chi tiêu
+dashboard.net_savings,Tiết kiệm Ròng
+dashboard.category_breakdown,Phân bổ Danh mục
+dashboard.monthly_overview,Tổng quan Hàng tháng
+dashboard.monthly_overview_subtitle,Dòng thu chi trong năm {year}
+dashboard.reverse_order,Đảo ngược Thứ tự
+dashboard.top_categories,Danh mục Hàng đầu
+dashboard.top_categories_subtitle,Xếp hạng theo giá trị giao dịch cao nhất
+dashboard.rank,Hạng
+dashboard.category,Danh mục
+dashboard.value,Giá trị
+dashboard.no_data_title,Không có dữ liệu cho năm {year}
+dashboard.no_data_desc_part1,Bắt đầu bằng cách thêm các mục thu nhập và chi tiêu trong thẻ
+dashboard.no_data_desc_part2,hoặc yêu cầu AI tạo kế hoạch cho bạn.
+dashboard.modal.title,Chức năng Bảng tin
+dashboard.modal.group_analytic,Phân tích
+dashboard.modal.refresh_auto_cat,Làm mới Tự động phân loại
+dashboard.modal.refresh_auto_cat_desc,Xóa bộ nhớ đệm và chạy lại phân loại AI
+dashboard.modal.group_category_mgmt,Quản lý Danh mục
+dashboard.modal.manage_cat,Quản lý Danh mục
+dashboard.modal.import_cat,Nhập Danh mục
+category.uncategorized,Chưa phân loại
+action.view_dashboard,xem trên tổng quan
+dashboard.trending_lines,Biểu đồ Xu hướng
+dashboard.trending_lines_description,So sánh xu hướng giữa các hạng mục riêng lẻ
+dashboard.search_items,Tìm kiếm hạng mục...
+dashboard.recurring,Định kỳ
+dashboard.normal,Thường
+dashboard.no_items_selected,Chọn hạng mục để xem xu hướng
+category_mgmt.title,Quản lý Danh mục
+category_mgmt.create_new,Tạo Danh mục mới
+category_mgmt.filter_type,Lọc theo Loại
+category_mgmt.sort_by,Sắp xếp theo
+category_mgmt.sort_asc,Tăng dần
+category_mgmt.sort_desc,Giảm dần
+category_mgmt.system_category,Hệ thống
+category_mgmt.user_category,Người dùng
+category_mgmt.name,Tên
+category_mgmt.type,Loại
+category_mgmt.create_modal.title,Tạo Danh mục
+category_mgmt.create_modal.name_label,Tên Danh mục
+category_mgmt.create_modal.type_label,Loại Danh mục
+category_mgmt.create_modal.submit,Tạo
+category_mgmt.create_modal.cancel,Hủy
+category_mgmt.create_modal.success,Đã tạo danh mục thành công
+category_mgmt.create_modal.error_empty,Tên không được để trống
+category_mgmt.create_modal.error_exists,Danh mục đã tồn tại
+common.all,Tất cả
+category_mgmt.source,Nguồn
+category_mgmt.categories_found,Tìm thấy {count} danh mục
+category_mgmt.edit_category,Sửa Danh mục
+category_mgmt.delete_category,Xóa Danh mục
+category_mgmt.delete_modal.title,Xóa Danh mục?
+category_mgmt.delete_modal.message,Bạn có chắc chắn muốn xóa danh mục này? Hành động này không thể hoàn tác.
+category_mgmt.delete_modal.confirm,Xóa
+category_mgmt.delete_modal.cancel,Hủy
+category_mgmt.edit_modal.title,Sửa Danh mục
+category_mgmt.edit_modal.submit,Lưu Thay đổi
+admin.title,Quản Trị Hệ Thống
+admin.subtitle,Quản lý cấu hình ứng dụng, mô hình AI và các thiết lập hệ thống.
+admin.ai.title,Quản Lý AI
+admin.ai.tag,Trung tâm Trí tuệ
+admin.ai.description,Theo dõi và quản lý tích hợp AI của bạn. Kiểm tra các mô hình có sẵn từ OpenAI và xác minh trạng thái cấu hình API.
+admin.ai.view_models,Xem Các Mô Hình AI Được Hỗ Trợ
+admin.ai.change_api_key,Thay Đổi API Key
+admin.ai.api_configured,API Key Đã Được Cấu Hình
+admin.modal.models.title,Các Mô Hình OpenAI Hỗ Trợ
+admin.modal.models.tag,Danh Mục Trí Tuệ Trực Tuyến
+admin.modal.models.col_id,Định Danh Mô Hình
+admin.modal.models.col_owner,Nhà Cung Cấp Hạ Tầng
+admin.modal.models.col_date,Ngày Triển Khai
+admin.modal.models.loading,Đang Truy Vấn Semantic API...
+admin.modal.models.error_title,Thực Thi Truy Vấn Thất Bại
+admin.modal.models.dismiss,Đóng Cửa Sổ
+admin.modal.models.col_action,Hành động
+admin.modal.models.status_active,Đang dùng
+admin.modal.models.action_select,Chọn
+admin.modal.models.search,Tìm kiếm mô hình...
+admin.modal.apikey.title,Cấu Hình OpenAI API Key
+admin.modal.apikey.description,Chọn API key bạn muốn sử dụng cho các tính năng AI. Bạn có thể chọn giữa key chính và các key dự phòng đã được cấu hình trong hệ thống.
+admin.modal.apikey.select_label,API Key Đang Hoạt Động
+admin.modal.apikey.key_default,API Key Chính (Mặc định)
+admin.modal.apikey.key_backup_1,API Key Dự Phòng 1
+admin.modal.apikey.key_backup_2,API Key Dự Phòng 2
+admin.modal.apikey.key_backup_3,API Key Dự Phòng 3
+admin.modal.apikey.save,Áp Dụng API Key
+admin.modal.apikey.success,Đã cập nhật API Key. Đang tải lại ứng dụng trong 3 giây...
+modal.add.structure.label,Cấu trúc
+modal.add.structure.simple,Mục đơn giản
+modal.add.structure.bundle,Gói mục (Bundle)
+modal.add.status.label,Trạng thái
+modal.add.status.finalized,Đã chốt
+modal.add.status.not_finalized,Dự kiến
+modal.add.amount.bundle_hint,Số tiền gói được tính từ các mục con
+modal.add.recurring_mode.label,Chế độ lặp lại
+modal.add.recurring_mode.as_it_is,Giữ nguyên (Toàn bộ)
+modal.add.recurring_mode.installments,Trả góp
+modal.add.installments.label,Số kỳ trả góp
+modal.add.subitems.title,Mục con
+modal.add.subitem.name_placeholder,Tên mục con...
+modal.add.subitem.desc_placeholder,Chi tiết thêm...
+modal.add.subitems.empty,Chưa có mục con nào. Gói mục cần ít nhất một mục con.
+modal.add.subitems.total_items,{count} mục con
+common.add,Thêm
+common.projected,Dự tính
+common.not_finalized,Chưa chốt
+modal.edit.warning_type_income,Income type and recurrence settings cannot be changed after creation.
+modal.edit.recurring_locked,Cài đặt lặp lại bị khóa cho gói trả góp
+modal.delete_series.message_installments,Đây là gói trả góp. Tất cả các kỳ trả góp trong chuỗi này sẽ bị xóa.
+common.installment,Kỳ trả góp
+common.payment,Kỳ thanh toán
+modal.add.recurring_option.label,Tùy chọn lặp lại
+modal.add.recurring_option.forever,Không có ngày kết thúc
+modal.add.recurring_option.until_date,Đến một ngày cụ thể
