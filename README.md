@@ -66,6 +66,13 @@ Plan Your Money is a financial planning and management application built with Re
 2. Configuration:
    Create a `.env` file in the root directory based on `.env.example`.
 
+### Configuration Requirements
+
+- **AI Functions**: Requires at least one OpenAI API key to enable AI-powered planning and categorization.
+- **Currency Conversion**: Requires a CurrencyFreaks API key for real-time exchange rate updates.
+- **Data Security**: Users must set their own private encryption key in the environment variables to use the encrypted export (.efma) feature.
+
+
 ### Development
 
 Start the local development server:
