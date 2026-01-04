@@ -1,68 +1,72 @@
-# FinManagementApp (FMA)
+# Plan Your Money
 
-FMA is a premium financial planning and management application built with React, Vite, and TypeScript. It offers a powerful "Plan first, track second" philosophy, allowing users to project their future finances with precision and ease.
+Plan Your Money is a financial planning and management application built with React, Vite, and TypeScript. It focuses on long-term financial projection and budget planning.
 
-## 🚀 Key Features
+## Features
 
-- **Dynamic Financial Planning**: Monthly and yearly views with support for mixed currencies (**VND, USD, AUD**).
-- **Intelligent Dashboard**: Real-time visual summaries using charts for category breakdown, monthly overview, and top expenses.
-- **Currency Conversion**: Automatic exchange rates via CurrencyFreaks API with 24-hour local caching.
-- **AI-Powered Insights**: Integrated AI capabilities for financial analysis and automated planning.
-- **Premium UI/UX**: Modern "Glassmorphism" aesthetic with dark mode support, smooth animations, and a responsive layout.
-- **Internationalization**: Full bilingual support (English & Vietnamese) powered by a custom CSV-based i18n system.
-- **Offline First**: Local storage persistence ensuring your data remains private and accessible.
+- Multi-currency support (VND, USD, AUD) with real-time conversion.
+- Automated exchange rate fetching with 24-hour local caching.
+- Data visualization for monthly trends, category breakdowns, and top expenses.
+- AI integration for automated financial planning and categorization.
+- Bilingual support (English and Vietnamese) via CSV-based translation system.
+- Local-first data persistence.
+- Modern UI with dark mode and responsive layouts.
 
-## 🛠 Tech Stack
+## Technical Stack
 
-- **Frontend**: React 19, Vite, TypeScript
-- **Styling**: Tailwind CSS, Lucide icons
-- **Charts**: Recharts
-- **State & Context**: Custom React Providers (I18n, Currency)
-- **Development**: ESLint, PostCSS
+- React 19 / Vite / TypeScript
+- Tailwind CSS / Lucide Icons
+- Recharts for data visualization
+- Playwright for end-to-end testing
+- ESLint / PostCSS
 
-## 📂 Project Structure
+## Directory Structure
 
-- `src/components`: UI components organized by feature (Plan, Dashboard, Admin, UI primitives).
-- `src/services`: Business logic for calculations, currency conversion, and AI integration.
-- `src/providers`: Global application state (Context API).
-- `src/hooks`: Custom React hooks for translations and data management.
-- `src/types`: Centralized TypeScript interfaces.
-- `i18n/`: Translation source files in CSV format.
-- `scripts/`: Development utilities (e.g., translation validation).
+- `src/components`: UI components grouped by feature (Plan, Dashboard, Admin).
+- `src/services`: Core logic for calculations, currency, and AI.
+- `src/providers`: React Context providers for global state.
+- `src/hooks`: Application hooks for i18n and data access.
+- `src/types`: TypeScript definitions.
+- `i18n/`: CSV translation files.
 
-## 🚦 Getting Started
+## Getting Started
 
 ### Prerequisites
 
-- Node.js (Latest LTS recommended)
-- `npm` or `yarn` or `pnpm`
+- Node.js (Latest LTS)
+- npm or equivalent package manager
 
 ### Installation
 
-1.  Clone the repository.
-2.  Install dependencies:
-    ```bash
-    npm install
-    ```
-3.  Create a `.env` file in the root and add your API keys:
-    ```env
-    VITE_CURRENCY_FREAK_API_KEY=your_api_key_here
-    VITE_OPENAI_API_KEY=your_openai_key_here
-    ```
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Configuration:
+   Create a `.env` file in the root directory based on `.env.example`.
 
 ### Development
 
-Run the development server:
+Start the local development server:
 ```bash
 npm run dev
 ```
 
-### Build
+### Production Build
 
-Create a production bundle:
+Build the application for production:
 ```bash
 npm run build
+```
 
-## 📄 License
+### Testing
+
+Execute end-to-end tests:
+```bash
+npm run app-tests
+```
+
+## License
 
 Private - All rights reserved.
