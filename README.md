@@ -10,6 +10,16 @@ Plan Your Money is a financial planning and management application built with Re
 ![Screen 2](public/docs/Screen_2.png)
 *Visual charts for financial plan analysis.*
 
+![Screen 3](public/docs/Screen_3_AI_start.png)
+*AI integration allows users to generate plans from natural language descriptions.*
+
+![Screen 4](public/docs/Screen_4_bundle.png)
+*Bundle support for managing recurring paychecks and installments.*
+
+![Screen 5](public/docs/Screen_5_import.png)
+*Support for exporting and importing data back into the application.*
+
+
 
 
 ## Features
