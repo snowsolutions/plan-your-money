@@ -2,6 +2,16 @@
 
 Plan Your Money is a financial planning and management application built with React, Vite, and TypeScript. It focuses on long-term financial projection and budget planning.
 
+## Preview
+
+![Screen 1](public/docs/Screen_1.png)
+*Main application UI for yearly budget planning.*
+
+![Screen 2](public/docs/Screen_2.png)
+*Visual charts for financial plan analysis.*
+
+
+
 ## Features
 
 - Multi-currency support (VND, USD, AUD) with real-time conversion.
